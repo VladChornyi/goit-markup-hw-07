@@ -1,4 +1,4 @@
-.client .title {
+.client-title {
   margin-bottom: 50px;
 
   font-weight: bold;
@@ -28,17 +28,17 @@
   border-radius: 4px;
   transition: border-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    & .ikon-client {
+      fill: var(--accent-color);
+    }
+  }
 }
-.client-link:hover,
-.client-link:focus {
-  border-color: var(--accent-color);
-}
+
 .ikon-client,
 .ikon-client {
   transition: fill 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client-link:hover .ikon-client,
-.client-link:focus .ikon-client {
-  fill: var(--accent-color);
 }

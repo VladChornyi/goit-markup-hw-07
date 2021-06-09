@@ -42,10 +42,11 @@
   height: 30px;
   border-radius: 50%;
   cursor: pointer;
+  &:hover .ikon-close {
+    fill: var(--accent-color);
+  }
 }
-.modal-close-btn:hover .ikon-close {
-  fill: var(--accent-color);
-}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;

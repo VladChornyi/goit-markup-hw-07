@@ -1,10 +1,4 @@
-/*logo*/
-.black-logo {
-  margin-right: 93px;
-}
-
-.black-logo,
-.white-logo {
+.logo {
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -13,19 +7,21 @@
   text-decoration: none;
 }
 
-.black-logo-web {
+.logo-web {
   color: #2196f3;
 }
-.black-logo-studio {
+.logo-studio {
   color: #000000;
 }
+.black-logo {
+  margin-right: 93px;
+}
+
 .white-logo {
   display: inline-block;
   margin-bottom: 20px;
 }
-.white-logo-web {
-  color: #2196f3;
-}
+
 .white-logo-studio {
   color: #ffffff;
 }

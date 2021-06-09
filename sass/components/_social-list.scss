@@ -16,11 +16,18 @@
   fill: #afb1b8;
   transition: background-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    & .ikon-instagram,
+    & .ikon-twitter,
+    & .ikon-facebook,
+    & .ikon-linkedin {
+      fill: #ffffff;
+    }
+  }
 }
-.social-link-light:hover,
-.social-link-light:focus {
-  background-color: var(--accent-color);
-}
+
 .ikon-instagram,
 .ikon-twitter,
 .ikon-facebook,
@@ -32,25 +39,12 @@
   transition: fill 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link-light:hover .ikon-instagram,
-.social-link-light:hover .ikon-twitter,
-.social-link-light:hover .ikon-facebook,
-.social-link-light:hover .ikon-linkedin,
-.social-link-light:focus .ikon-instagram,
-.social-link-light:focus .ikon-twitter,
-.social-link-light:focus .ikon-facebook,
-.social-link-light:focus .ikon-linkedin {
-  fill: #ffffff;
-}
+
 .social-list-dark {
   display: flex;
-}
-.social-list-dark .social-item:not(:last-child) {
-  margin-right: 10px;
-}
-.footer-social-link {
-  padding-top: 72px;
-  margin-left: 70px;
+  & .social-item:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .social-link-dark {
@@ -64,8 +58,8 @@
   fill: #ffffff;
   transition: background-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-link-dark:hover,
-.social-link-dark:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
