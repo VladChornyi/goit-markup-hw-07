@@ -1,4 +1,4 @@
-.social-list-light {
+.social__list_light {
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
@@ -6,7 +6,7 @@
   padding-right: 32px;
 }
 
-.social-link-light {
+.social__link_light {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,14 +40,14 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-dark {
+.social__list_dark {
   display: flex;
   & .social-item:not(:last-child) {
     margin-right: 10px;
   }
 }
 
-.social-link-dark {
+.social__link_dark {
   display: flex;
   justify-content: center;
   align-items: center;

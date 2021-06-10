@@ -1,4 +1,4 @@
-.client-title {
+.client__title {
   margin-bottom: 50px;
 
   font-weight: bold;
@@ -9,14 +9,14 @@
 
   color: #212121;
 }
-.client-list {
+.client__list {
   display: flex;
   justify-content: space-between;
 }
-.client-item {
+.client__item {
   display: flex;
 }
-.client-link {
+.client__link {
   display: flex;
   justify-content: center;
   align-items: center;

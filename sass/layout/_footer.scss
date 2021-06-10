@@ -1,6 +1,6 @@
 .footer {
   background-color: #2f303a;
-  & .link {
+  & .footer__link {
     display: inline-block;
     text-decoration: none;
   }
@@ -9,21 +9,21 @@
   }
 }
 
-.footer-content {
+.footer__content {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.footer-address {
+.footer__address {
   margin-bottom: 9px;
   color: #ffffff;
   font-style: normal;
 }
-.footer-mail {
+.footer__mail {
   margin-bottom: 9px;
 }
-.footer-mail,
-.footer-tel {
+.footer__mail,
+.footer__tel {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
@@ -38,10 +38,10 @@
   }
 }
 
-.footer-social-list-box {
+.footer__social-box {
   padding-top: 72px;
   margin-left: 70px;
-  & .title {
+  & .footer__title {
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 14px;
@@ -52,14 +52,14 @@
   }
 }
 
-.footer-form-box {
+.footer__form-box {
   padding-top: 72px;
   margin-left: auto;
 }
-.footer-form {
+.subscribe__form {
   display: flex;
 }
-.footer-form-head {
+.subscribe__head {
   width: 100%;
   font-weight: bold;
   font-size: 14px;
@@ -69,7 +69,7 @@
 
   color: #ffffff;
 }
-.footer-input {
+.subscribe__input {
   margin-top: 20px;
   width: 358px;
   height: 50px;
@@ -88,7 +88,7 @@
     padding-left: 16px;
   }
 }
-.footer-form-button {
+.subscribe__button {
   position: relative;
   font-weight: bold;
   font-size: 16px;
